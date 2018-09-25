@@ -148,3 +148,21 @@ network={
 	key_mgmt=WPA-PSK
 }
 ```
+
+## Cherrypi
+
+Testing cherrypy
+```
+# pip3 install cherrypy
+cp.py:
+import cherrypy
+class HelloWorld(object):
+def index(self):
+return "Hello from wxflowtochords!“
+index.exposed = True
+
+cherrypy.server.socket_host = '0.0.0.0' # put it here
+cherrypy.quickstart(HelloWorld())
+
+# python3 cp.py
+```
