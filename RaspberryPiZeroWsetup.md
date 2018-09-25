@@ -8,7 +8,7 @@ https://www.losant.com/blog/getting-started-with-the-raspberry-pi-zero-w-without
 ```
 ssh pi@raspberrypi.local (raspberry)
 # sudo -i
-# echo <new_hostname> > /etc/hostname
+# echo <new_hostname> > /etc/hostname # change hostname
 # sudo apt-get update && sudo apt-get upgrade -y
 # apt-get install -y git
 # apt-get install -y python3-pip
