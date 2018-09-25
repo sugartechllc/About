@@ -18,6 +18,13 @@ ssh pi@raspberrypi.local (raspberry)
 # exit
 ```
 
+## Expanding the file system
+```
+sudo -i
+raspi-config
+# Select Advanced->Expand Filesystem
+```
+
 ## Source code
 The following is for wxflowtochords. Modify appropriately for tpg.
 ```
