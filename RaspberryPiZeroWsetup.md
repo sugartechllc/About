@@ -149,7 +149,7 @@ network={
 }
 ```
 
-## Cherrypi
+## CherryPy
 
 Testing cherrypy
 ```
